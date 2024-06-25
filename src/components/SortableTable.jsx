@@ -64,13 +64,13 @@ const SortableTable = () => {
       <table border="1">
         <thead>
           <tr>
-            <th onClick={() => sortData('name')}>Name {getSortArrow('name')}</th>
+            <th onClick={() => sortData('name')}>Customer {getSortArrow('name')}</th>
             <th onClick={() => sortData('lastSeen')}>Last Seen {getSortArrow('lastSeen')}</th>
-            <th onClick={() => sortData('order')}>Order {getSortArrow('order')}</th>
-            <th onClick={() => sortData('totalAmount')}>Total Amount {getSortArrow('totalAmount')}</th>
+            <th onClick={() => sortData('order')}>Orders {getSortArrow('order')}</th>
+            <th onClick={() => sortData('totalAmount')}>Total Spent {getSortArrow('totalAmount')}</th>
             <th onClick={() => sortData('latestPurchase')}>Latest Purchase {getSortArrow('latestPurchase')}</th>
             <th onClick={() => sortData('news')}>News {getSortArrow('news')}</th>
-            <th onClick={() => sortData('segment')}>Segment {getSortArrow('segment')}</th>
+            <th onClick={() => sortData('segment')}>Segments {getSortArrow('segment')}</th>
           </tr>
         </thead>
         <tbody>
